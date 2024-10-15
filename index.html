@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Slider App</title>
+    <link rel="stylesheet" 
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="styles.css"/>
+  </head>
+  <body>
+    <section class="slider-section">
+      <div class="reviews-div">
+        <h2>Our reviews</h2>
+      </div>
+      <div class="slider-container">
+        <!-- SLIDE -->
+        <article class="slide">
+          <div class="slide-user-container"> 
+            <img class="img" src="images/img-1.jpg" alt="Mary Higgs">
+            <h4>
+              Mary Higgs</h4>
+            <p class="occupation">
+              Photographer</p>
+          </div>
+
+          <div class="slide-review-container">
+            <div class="review-stars">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-regular fa-star-half-stroke"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+            <p class="review-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum, facere! Eius harum nemo architecto eveniet. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident, aspernatur.
+            </p>
+            <div class="feather-icon">
+              <i class="fa-solid fa-feather"></i>
+              <!-- <i class="fa-solid fa-signature"></i> -->
+            </div>
+          </div>  
+        </article>
+        <!--------------------------->
+      </div>
+
+      <button class="btn prev-btn">
+        <i class="fa-solid fa-caret-left"></i>
+      </button>
+      <button class="btn next-btn">
+        <i class="fa-solid fa-caret-right"></i>
+      </button>
+    </section>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
