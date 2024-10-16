@@ -212,6 +212,7 @@ margin-bottom: 1rem;
   transition: var(--transition);
   padding: 0 1.7rem;
   background-color: var(--clr-grey-5);
+  opacity: 0;
 }
 .slide-user-container {
   margin-right: 1rem;

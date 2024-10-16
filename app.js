@@ -58,9 +58,6 @@ container.innerHTML =
 }).join('');
 
 
-
-// console.log(container.innerHTML);
-
 function slider(direction) {
   const active = document.querySelector('.active');
   const last = document.querySelector('.last');
@@ -74,16 +71,32 @@ function slider(direction) {
   last.classList.remove('last');
   next.classList.remove('next');
 
+  if (direction === 'previous') {
+    active.classList.add('next');
+    last.classList.add('active');
+    next = last.previousElementSibling;
+
+    if (!next) {
+      next = container.lastElementChild;
+    }
+
+    next.classList.remove('next');
+    next.classList.add('last');
+    return;
+  }
+
   active.classList.add('last');
   next.classList.add('active');
   last.classList.add('next');
-  
-}
+};
+
+
 
 nextBtn.addEventListener("click", () => {
-  slider();
+  slider(); // next
 });
-/* 
-< active  -  next  -   last
 
-< next -  last   - active */
+prevBtn.addEventListener("click", () => {
+  slider('previous');
+});
+
