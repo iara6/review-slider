@@ -15,7 +15,7 @@ const peopleData = [
     img: 'images/img-3.jpg',
     name: 'Sarah Smith',
     job: 'Architect',
-    review: '8-bit dolore before they sold out big mood put a bird on it distillery. Veniam slow-carb freegan cillum next level hexagon tempor everyday carry hoodie bodega boys same. Ex tofu messenger bag godard. Consectetur seitan tacos poke squid voluptate duis venmo viral minim commodo.',
+    review: '8-bit dolore before they sold out big mood put a bird on it distillery. Veniam slow-carb freegan cillum next level hexagon tempor hoodie bodega boys same. Consectetur seitan tacos poke squid voluptate duis venmo viral minim commodo.',
   },
   {
     img: 'images/img-4.jpg',
@@ -33,7 +33,7 @@ const peopleData = [
     img: 'images/img-6.jpg',
     name: 'Kathy Hills',
     job: 'Graphic Designer',
-    review: 'Exercitation etsy tofu tote bag, church-key lomo aliqua tumblr occupy gentrify. Direct trade culpa cloud bread ascot pariatur. Cillum try-hard pork belly vexillologist, meh leggings shaman drinking vinegar. Tacos bitters typewriter polaroid locavore.',
+    review: 'Exercitation etsy tofu tote bag, church-key lomo aliqua tumblr occupy gentrify. Direct trade culpa cloud bread ascot pariatur. Cillum try-hard, meh leggings shaman drinking vinegar. Tacos bitters typewriter polaroid locavore.',
   },
 ];
 
